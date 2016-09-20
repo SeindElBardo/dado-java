@@ -26,15 +26,20 @@ public class Dado {//Este proyecto sirve para mejorar la generación de aleatori
 		return tirar(20);
 	}
 	
-	public static int d10 (){
-		return tirar(10);
-	}
 	public static int d100 (){
 		return tirar(100);
 	}
 	
 	public static int d12 (){
 		return tirar(12);
+	}
+	
+	public static int d10 (){
+		return tirar(10);
+	}
+	
+	public static int d8 (){
+		return tirar(8);
 	}
 	
 	public static int d6 (){

@@ -1,6 +1,6 @@
 package dados;
 
-public class Dado {//Este proyecto sirve para mejorar la generaciÃ³n de aleatorios junto con el sistema d20
+public class Dado {//Este proyecto sirve para mejorar la generación de aleatorios junto con el sistema d20
 	
 	public static int tirar (int caras){
 		return (int) (Math.random()*caras+1);

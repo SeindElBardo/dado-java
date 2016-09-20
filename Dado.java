@@ -14,7 +14,7 @@ public class Dado {//Este proyecto sirve para mejorar la generación de aleatorio
 		return resultado;
 	}
 	
-	public static int random (int numeroMax){//Contiene el 0
+	public static int random (int numeroMax){//Contiene el 0.
 		return (int) (Math.random()*(numeroMax+1));
 	}
 	
